@@ -18,8 +18,10 @@
   }
 
   h1 {
-    font-size: 6.375em;
+    font-size: 6em;
     text-align: center;
+    margin-bottom: 0px;
+    margin-top: 0px;
   }
   h2 {
     font-size: 3em;
@@ -30,23 +32,41 @@
     margin-left: auto;
     margin-right: auto;
   }
+
+  .footer {
+    text-align: center;
+  }
+
+  a {
+    font-weight: bold;
+  }
+  @media screen and (max-width: 40.5em) {
+    h1 { font-size: 3em; }
+    h2 { font-size: 2em; }
+    body > div {
+      width: initial;
+    }
+  }
 </style>
     </head>
     <body style="background-color: #89DAFF">
-      <h1>Winnipeg Kitchen Library</h1>
+      <h1>Winnipeg</h1>
+      <h1>Kitchen Library</h1>
       <h2>Summer 2019</h2>
       <div>
-      <p>
-        Check out and follow our <a href="https://www.facebook.com/WinnipegKitchenLibrary/">Facebook page</a> for updates.
-      </p>
-      <p>
-        To make a contribution, email us at winnipegkitchenlibrary@gmail.com. We are currently accepting:
-      </p>
-      <ul>
-        <li>Any and all kitchen items for lending out (mixers, plates, applianaces, etc.)</li>
-        <li>Money</li>
-      </ul>
-      <p>Copyright 2019 Winnipeg Kitchen Library</p>
+        <p>
+          Check out and follow our <a href="https://www.facebook.com/WinnipegKitchenLibrary/">Facebook page</a> for updates.
+        </p>
+        <p>
+        To make a contribution, email us at <a href="mailto:winnipegkitchenlibrary@gmail.com">winnipegkitchenlibrary@gmail.com</a>. We are currently accepting:
+        </p>
+        <ul>
+          <li>Any and all kitchen items for lending out (mixers, plates, applianaces, etc.)</li>
+          <li>Money</li>
+        </ul>
+        </div>
+      <div class="footer">
+        <p>Copyright 2019 Winnipeg Kitchen Library</p>
       </div>
     </body>
 </html>
